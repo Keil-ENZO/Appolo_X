@@ -1,0 +1,70 @@
+footer {
+    background-color: #fff;
+}
+
+.end-bar {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 10%;
+}
+
+.text1 {
+    margin: 5%;
+}
+
+.text2 {
+    margin: 5%;
+}
+
+.text3 {
+    margin: 5%;
+}
+
+.text4 {
+    margin: 5%;
+}
+
+.appolo-title {
+    color: black;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.title-footer {
+    font-family: Inter, sans-serif;
+    color: black;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.explain {
+    line-height: 24px;
+    font-family: Inter, sans-serif;
+    text-decoration: none;
+    color: #7f858a;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.copyright {
+    font-family: Outfit, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 6%;
+}
+
+@media screen and (max-width:760px) {
+    .end-bar {
+        grid-template-columns: repeat(2, 2fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+    .text3 {
+        margin-top: 40px;
+        grid-row: 2;
+    }
+    .text4 {
+        margin-top: 40px;
+        grid-row: 2;
+    }
+}

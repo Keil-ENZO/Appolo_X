@@ -1,0 +1,177 @@
+main {
+    height: 100%;
+    overflow-y: hidden;
+    background-color: #e5e6e8;
+    flex-grow: 1;
+}
+
+.square1 {
+    height: 60%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    padding: 10%;
+}
+
+.title {
+    color: #272d34;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.text-square {
+    margin-top: 3%;
+    color: #7f858a;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.text_explain {
+    height: 100%;
+    width: 45%;
+}
+
+.fusee {
+    margin-top: 80px;
+    height: 340px;
+    width: 255px;
+}
+
+.planete {
+    margin-top: 80px;
+    height: 165px;
+    width: 255px;
+}
+
+.livre {
+    margin-top: 80px;
+    height: 155px;
+    width: 255px;
+}
+
+.button-square1 {
+    display: flex;
+    margin-top: 5%;
+    justify-content: flex-start;
+    gap: 15px;
+    width: 100%;
+}
+
+.button1 {
+    padding: 10px 45px;
+    font-size: 17px;
+    font-weight: 700;
+    background-color: #8A4fff;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-family: Inter, sans-serif;
+    cursor: pointer;
+    transition: 0.4s cubic-bezier(.52,1.46,1,.92);
+
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+.button2 {
+    padding: 10px 45px;
+    font-size: 17px;
+    font-weight: 700;
+    background-color: rgba(138, 79, 255, 0.1);
+    border-radius: 8px;
+    border-color: rgba(138, 79, 255, 0.1);
+    color: #8A4fff;
+    font-family: Inter, sans-serif;
+    cursor: pointer;
+    transition: 0.4s cubic-bezier(.52,1.46,1,.92);
+
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+.square2 {
+    height: 60%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    padding: 10%;
+}
+
+.square3 {
+    height: 60%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10%;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.square-icon {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.a-arrow {
+    background-color: #8A4fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.4s cubic-bezier(.52,1.46,1,.92);
+
+    &:hover {
+        border-radius: 50%;
+    }
+}
+
+ion-icon {
+    position: relative;
+    top: 12px;
+    left: 13px;
+    font-size: 25px;
+}
+
+@media screen and (max-width:730px) {
+    .square1 {
+        flex-direction: column;
+    }
+    .text_explain{
+        width: 100%;
+    }
+    .fusee {
+        margin-top: 150px;
+        margin-left: 10%;
+       
+    }
+    .button-square1 {
+        flex-direction: column;
+    }
+    .square2 {
+        flex-direction: column;
+    }
+    .planete {
+        margin-top: 150px;
+        margin-left: 18px;;
+    }
+    .square3 {
+        flex-direction: column;
+    }
+    .livre {
+        margin-top: 150px;
+        margin-left: 10%;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    main {
+        margin-top: 15px;
+    }
+}
+    

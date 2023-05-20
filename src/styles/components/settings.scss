@@ -1,0 +1,45 @@
+//Modif de la scrollbar
+.course::-webkit-scrollbar {
+  width: 12px; /* width of the entire scrollbar */
+}
+
+.course::-webkit-scrollbar-track {
+  background: #f5f5f5; /* color of the tracking area */
+}
+
+.course::-webkit-scrollbar-thumb {
+  background-color: #e5e6e8; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 1px solid black; /* creates padding around scroll thumb */
+}
+
+//Modif de la scrollbar
+body::-webkit-scrollbar {
+  width: 12px; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: #f5f5f5; /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #e5e6e8; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 1px solid black; /* creates padding around scroll thumb */
+}
+
+
+//Modif de la scrollbar
+.content-body::-webkit-scrollbar {
+  width: 12px; /* width of the entire scrollbar */
+}
+
+.content-body::-webkit-scrollbar-track {
+  background: #f5f5f5; /* color of the tracking area */
+}
+
+.content-body::-webkit-scrollbar-thumb {
+  background-color: #e5e6e8; /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  border: 1px solid black; /* creates padding around scroll thumb */
+}
